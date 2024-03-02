@@ -1,0 +1,66 @@
+{
+  "results": [
+    {
+      "gender": "male",
+      "name": {
+        "title": "Mr",
+        "first": "Gary",
+        "last": "Cooper"
+      },
+      "location": {
+        "street": {
+          "number": 6297,
+          "name": "Railroad St"
+        },
+        "city": "Bunbury",
+        "state": "Victoria",
+        "country": "Australia",
+        "postcode": 5583,
+        "coordinates": {
+          "latitude": "-83.0574",
+          "longitude": "-89.5103"
+        },
+        "timezone": {
+          "offset": "-11:00",
+          "description": "Midway Island, Samoa"
+        }
+      },
+      "email": "gary.cooper@example.com",
+      "login": {
+        "uuid": "520aa3cb-1cfc-4438-bfbc-c9b08eb2a21f",
+        "username": "sadrabbit817",
+        "password": "wedding",
+        "salt": "eX7WpoFp",
+        "md5": "7a5c001f6c62a31d410275869c51b74b",
+        "sha1": "76ec656347d37ef3f161c1636cbb2077c061411f",
+        "sha256": "954cd0bd4f4b46d3781bf2e5f80c2717422b1097deb850c2b8240a562729e9ab"
+      },
+      "dob": {
+        "date": "1978-09-04T12:32:31.020Z",
+        "age": 45
+      },
+      "registered": {
+        "date": "2016-06-26T02:28:43.605Z",
+        "age": 7
+      },
+      "phone": "05-9716-1193",
+      "cell": "0432-006-883",
+      "id": {
+        "name": "TFN",
+        "value": "953896494"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/0.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/0.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/0.jpg"
+      },
+      "nat": "AU"
+    }
+  ],
+  "info": {
+    "seed": "378fc4f3e01ccd40",
+    "results": 1,
+    "page": 1,
+    "version": "1.4"
+  }
+}

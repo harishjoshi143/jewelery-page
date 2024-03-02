@@ -1,0 +1,143 @@
+@media (max-width: 1400px) {
+  :root {
+    --fs_xsm: 14px;
+    --fs_sm: 16px;
+    --fs_md: 18px;
+    --fs_lg: 20px;
+    --fs_xl: 23px;
+    --fs_xxl: 40px;
+    --fs_2xl: 60px;
+  }
+  .width_xxl_100 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1200px) {
+  :root {
+    --fs_xsm: 14px;
+    --fs_sm: 12px;
+    --fs_md: 17px;
+    --fs_lg: 16px;
+    --fs_xl: 19px;
+    --fs_xxl: 35px;
+    --fs_2xl: 50px;
+  }
+  .compile_btn {
+    padding: 16px 15px;
+  }
+
+  .nav_links {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    left: -100%;
+    background-image: linear-gradient(to right, #2c3e50, #4ca1af);
+    width: 100%;
+    min-height: calc(100vh - 100imagepx);
+    transition: 400ms;
+  }
+  ul li a {
+    font-size: 25px;
+    color: black !important;
+  }
+  .width_xl_100 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 992px) {
+  :root {
+    --fs_xsm: 14px;
+    --fs_sm: 12px;
+    --fs_md: 12px;
+    --fs_lg: 12px;
+    --fs_xl: 14px;
+    --fs_xxl: 25px;
+    --fs_2xl: 38px;
+  }
+  .girl_image_set {
+    left: 25%;
+  }
+  .width_lg_100 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  :root {
+    --fs_xsm: 11px;
+    --fs_sm: 12px;
+    --fs_md: 12px;
+    --fs_lg: 12px;
+    --fs_xl: 14px;
+    --fs_xxl: 25px;
+    --fs_2xl: 44px;
+  }
+  .compile_btn {
+    padding: 10px 13px;
+  }
+  .see_btn {
+    padding: 10px 13px !important;
+  }
+  .shop {
+    padding: 14px 20px;
+  }
+  .width_md_70 {
+    width: 60%;
+  }
+  .girl_image_set {
+    left: 67%;
+    bottom: 40%;
+  }
+  .line {
+    margin-top: 26px;
+  }
+}
+@media (max-width: 576px) {
+  :root {
+    --fs_xsm: 14px;
+    --fs_sm: 16px;
+    --fs_md: 18px;
+    --fs_lg: 13px;
+    --fs_xl: 17px;
+    --fs_xxl: 30px;
+    --fs_2xl: 44px;
+  }
+
+  .width_sm_60{
+    width: 60% !important;
+  }
+  .girl_image_set {
+    left: 67%;
+    bottom: 44%;
+  }
+  .btn_decorate {
+    padding: 9px 9px;
+}
+}
+
+@media (max-width: 320px) {
+  :root {
+    --fs_xsm: 14px;
+    --fs_sm: 13px;
+    --fs_md: 18px;
+    --fs_lg: 13px;
+    --fs_xl: 14px;
+    --fs_xxl: 19px;
+    --fs_2xl: 30px;
+  }
+  .girl_image_set {
+    left: 61%;
+    bottom: 55%;
+    width: 100px;
+  }
+  .width_xsm_100 {
+    width: 100%;
+  }
+  .width_xsm_60{
+    width: 60% !important;
+  }
+  
+}

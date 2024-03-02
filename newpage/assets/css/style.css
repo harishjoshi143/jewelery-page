@@ -1,0 +1,407 @@
+@import url("https://fonts.googleapis.com/css2?family=Medula+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none !important;
+  box-sizing: border-box !important;
+  text-decoration: none !important;
+}
+:root {
+  /* ===============>font-size */
+
+  --fs_xsm: 14px;
+  --fs_sm: 16px;
+  --fs_md: 18px;
+  --fs_lg: 20px;
+  --fs_xl: 24px;
+  --fs_xxl: 48px;
+  --fs_2xl: 72px;
+  /* ===============>font-weight */
+
+  --fw_light: 300;
+  --fw_normal: 400;
+  --fw_medium: 500;
+  --fw_bold: 700;
+  /* ===============>font - family */
+
+  --ff_poppins: "Poppins", sans-serif;
+  --ff_playfair: "Playfair Display", serif;
+
+  /* ===============>font - colors */
+
+  --clr_grey: #4d4d4d;
+  --clr_red: #bd0004;
+  --clr_yellow: #ff9900;
+  --clr_black: #000000;
+  --clr_light_blue: #eef2f5;
+  --clr_dark_grey: #474747;
+  --clr_light_grey: #f3f3f3;
+}
+/* ===============>font - colors */
+.clr_grey {
+  color: var(--clr_grey);
+}
+.bg_light_grey {
+  background-color: var(--clr_light_grey);
+}
+
+.bg_light_blue {
+  background-color: var(--clr_light_blue);
+}
+.bg_black {
+  background-color: var(--clr_black);
+}
+.clr_red {
+  color: var(--clr_red);
+}
+.clr_yellow {
+  color: var(--clr_yellow);
+}
+
+/* ===============>font-size */
+
+.fs_xsm {
+  font-size: var(--fs_xsm);
+}
+
+.fs_sm {
+  font-size: var(--fs_sm);
+}
+
+.fs_md {
+  font-size: var(--fs_md);
+}
+
+.fs_lg {
+  font-size: var(--fs_lg);
+}
+
+.fs_xl {
+  font-size: var(--fs_xl);
+}
+
+.fs_xxl {
+  font-size: var(--fs_xxl);
+}
+
+.fs_2xl {
+  font-size: var(--fs_2xl);
+}
+
+/* ===============>font-weight */
+
+.fw_light {
+  font-weight: var(--fw_light);
+}
+
+.fw_normal {
+  font-weight: var(--fw_normal);
+}
+
+.fw_medium {
+  font-weight: var(--fw_medium);
+}
+
+.fw_bold {
+  font-weight: var(--fw_bold);
+}
+
+/* ===============>font-family */
+
+.ff_poppins {
+  font-family: var(--ff_poppins);
+}
+
+.ff_playfair {
+  font-family: var(--ff_playfair);
+}
+
+/*  ============> custom-css */
+
+p {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+ul,
+ol {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.btn_decorate {
+  padding: 9px 23px;
+  color: black;
+  border: 1px solid var(--clr_red);
+  transition: 0.2s;
+}
+.btn_decorate:hover {
+  background-color: #bd0004;
+  color: #fff !important;
+}
+
+ul li a {
+  position: relative;
+}
+ul li a::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 3px;
+  background-color: var(--clr_red);
+  bottom: -100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: 0.2s;
+  border-radius: 10px;
+}
+ul li a:hover::after {
+  width: 100%;
+}
+
+.hero_image {
+  background-image: url(../images/png/Hero_Image.png);
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+.padding_26 {
+  padding: 26px 0px;
+}
+
+.h_80_vh {
+  height: 80vh;
+}
+
+.start_0{
+  left: 0 !important;
+}
+.see_btn {
+  padding: 16px 23px !important;
+}
+.white_card {
+  box-shadow: 0px 10px 30px 0px #00000026;
+  padding: 19px;
+  border: 1px solid #f4f4f4;
+}
+
+.compile_btn {
+  padding: 16px 23px;
+  border: 2px solid var(--clr_red);
+  color: var(--clr_red);
+  transition: 0.2s;
+}
+
+.compile_btn:hover svg path {
+  fill: white;
+  stroke: white;
+}
+.compile_btn:hover {
+  background-color: var(--clr_red);
+  color: white;
+}
+
+[type="button"]:not(:disabled),
+[type="reset"]:not(:disabled),
+[type="submit"]:not(:disabled),
+button:not(:disabled) {
+  cursor: pointer;
+}
+
+.padding_top_picks {
+  padding: 56px 0px 80px 0px;
+}
+
+.shop {
+  padding: 14px 28px;
+  border: 2px solid var(--clr_red);
+  color: var(--clr_red);
+}
+.shop:hover {
+  background-color: var(--clr_red);
+  color: white;
+}
+.girl_image_set {
+  bottom: 0;
+  left: 33%;
+}
+
+.collection_btn {
+  border: 2px solid black;
+  padding: 16px 22px;
+  color: black;
+}
+
+.collection_btn:hover {
+  background-color: black;
+  color: white;
+}
+.collection_btn:hover svg path {
+  stroke: white;
+}
+
+.service_card {
+  padding: 65px 24px;
+  border: 1px solid #0000001a;
+  transition: 0.2s;
+}
+
+.service_card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 4px 30px 0px #00000026;
+}
+.image_translate {
+  transition: 0.2s;
+}
+.image_translate:hover {
+  transform: translateY(-15px);
+}
+
+/* ===========accodian design =-================= */
+button:not(.collapsed) {
+  color: white !important;
+  background-color: #474747 !important;
+  border: none !important;
+  border-radius: 10px !important;
+}
+
+.accordion {
+  --bs-accordion-border-color: none !important;
+  --bs-accordion-btn-focus-box-shadow: none !important;
+}
+.cursor_pointer {
+  cursor: pointer;
+}
+.line {
+  width: 100%;
+  height: 1px;
+  margin-top: 88px;
+  background-color: var(--clr_dark_grey);
+}
+.social_media {
+  transition: 0.2s;
+}
+.social_media:hover {
+  transform: translateY(-10px);
+}
+footer ol li {
+  transition: 0.2s;
+}
+footer ol li:hover {
+  transform: translateX(10px);
+}
+
+.social_media:hover svg path {
+  fill: black;
+  opacity: 1;
+}
+
+/* loose charm */
+
+.add_btn {
+  border: 1px solid #bd0004;
+  padding: 10px 25px;
+  transition: 0.2s;
+}
+.add_btn:hover {
+  background-color: var(--clr_red);
+  color: white;
+}
+
+.ovarlay {
+  position: relative;
+}
+
+.ovarlay::after {
+  content: "";
+
+  width: 100%;
+  height: 0%;
+  position: absolute;
+  background: #000000cc;
+  opacity: 1;
+  top: 0;
+  transition: 0.5s;
+}
+
+.ovarlay:hover::after {
+  height: 100%;
+}
+
+.text_center_show {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+}
+
+.ovarlay:hover .text_center_show {
+  transition: 0.2s;
+  z-index: 1;
+  opacity: 1;
+}
+
+.btn_hide {
+  opacity: 1;
+}
+
+.ovarlay:hover .btn_hide {
+  opacity: 0;
+}
+
+/*   ====================== top picks section  ======================  */
+
+.top {
+  padding-top: 56px !important;
+  padding-bottom: 79px !important;
+}
+
+.new_butn {
+  padding: 10px 22px !important;
+  background-color: #fff !important;
+}
+
+.new_butn:hover {
+  background-color: red !important;
+  color: #fff;
+}
+
+.top_pick_hover {
+  position: relative;
+}
+
+.top_pick_hover::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 0%;
+  background: #000000cc;
+  opacity: 0;
+  top: 0%;
+  left: 0;
+  transition: 400ms;
+}
+
+.top_pick_hover:hover::after {
+  height: 100%;
+  opacity: 1;
+}
+
+.pos_btn {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  z-index: 1;
+  transition: 400ms;
+}
+
+.top_pick_hover:hover .pos_btn {
+  transition: 1.5s;
+  opacity: 1;
+}
